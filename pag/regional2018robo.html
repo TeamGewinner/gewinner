@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+	<head>
+		<link rel="stylesheet" type="text/css" href="../css/estilo.css">
+		<link rel="stylesheet" href="../css/aos.css" />
+		<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Karla&family=Roboto&display=swap" rel="stylesheet">
+		<link rel="shortcut icon" href="../favicon/favicon.ico">
+		<link rel="icon" sizes="16x16 32x32 64x64" href="../favicon/favicon.ico">
+		<link rel="icon" type="image/png" sizes="196x196" href="../favicon/favicon-192.png">
+		<link rel="icon" type="image/png" sizes="160x160" href="../favicon/favicon-160.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="../favicon/favicon-96.png">
+		<link rel="icon" type="image/png" sizes="64x64" href="../favicon/favicon-64.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16.png">
+		<link rel="apple-touch-icon" href="../favicon/favicon-57.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="../favicon/favicon-114.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="../favicon/favicon-72.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="../favicon/favicon-144.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="../favicon/favicon-60.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="../favicon/favicon-120.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="../favicon/favicon-76.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="../favicon/favicon-152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="../favicon/favicon-180.png">
+		<meta name="msapplication-TileColor" content="#FFFFFF">
+		<meta name="msapplication-TileImage" content="../favicon-144.png">
+		<meta name="msapplication-config" content="../favicon/browserconfig.xml">
+		<title>Robô 2018</title>
+	</head>
+	<body data-aos="fade-in" data-aos-duration="1500">
+		<nav>
+			<a class="paginas" href="../index.html" data-aos="fade-down" data-aos-duration="400">G</a>
+		</nav>
+		<div>
+			<h1 class="site-title" id="pag" data-aos="zoom-in-up" data-aos-duration="400">O Robô da Etapa Regional de 2018</h1>
+		</div>
+		<div class="posicao">
+			<button class="vejaMais" onclick="botaoPag()" data-aos="zoom-in-up" data-aos-duration="400" data-aos-offset="0">Veja mais &darr;</button>
+		</div>
+		<div class="conteudo" id="conteudo" data-aos="fade-right">
+			<img src="../img/1.jpg">
+			<h3>Esse foi o primeiro robô da nossa equipe. Ele era bem simples, se comparado com o atual, mas muito bem construido. Nós usávamos 1 EV3, 2 motores para movimentar o robô, 2 sensores ultrassônicos, 1 na frente e 1 no lado. O sensor da frente era usado para desviar do obstáculo e o da lateral, para identificar a entrada da redzone.</h3>
+		</div>
+		<div class="conteudo2" data-aos="fade-left">
+			<h3 class="normal">Eram usados 2 sensores de cor na frente do robô, para detectarmos a linha, e seguí-la. A garra era movimentada por 2 motores servos, que abaixavam vigas de lego e, então, o robô executava a programação de recolher as bolinhas e levá-las para o triângulo preto baixo, do nível 1.</h3>
+			<img class="imgrobo2" src="../img/1.jpg">
+			<h3 class="pequeno">Eram usados 2 sensores de cor na frente do robô, para detectarmos a linha, e seguí-la. A garra era movimentada por 2 motores servos, que abaixavam vigas de lego e, então, o robô executava a programação de recolher as bolinhas e levá-las para o triângulo preto baixo, do nível 1.</h3>
+		</div>
+		<section class="result" data-aos="fade-up">		
+			<h1 class="subtitle resultado">Resultado</h1>
+			<img src="../img/2018resultado.jpg" class="img-resultado" alt="Equipe">
+			<h3 class="texto">Com esse robô tiramos 2° lugar na Etapa Estadual!</h3>
+		</section>
+	<script src="../js/aos.js"></script>
+	<script>
+		function botaoPag() {
+  		document.getElementById( 'conteudo' ).scrollIntoView(); 
+		}
+	</script>
+  	<script>
+    AOS.init({
+    	offset: 200, 
+    	duration: 800,
+    	disable: 'mobile'
+    });
+  </script>
+	</body>
