@@ -9,10 +9,10 @@ html{
 	scroll-behavior: smooth;
 	overflow-y: scroll;
 	overflow-x: hidden;
-	background-color: black;
 }
 
 body {
+	background-color: black;	
 	font-family:'Balsamiq Sans', normal;
 	font-size: 12px;
 	background-image: url(../img/fundo.jpg);
