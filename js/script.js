@@ -76,8 +76,8 @@ function botao1() {
 	document.getElementById( 'quem-somos' ).scrollIntoView(); 
 }
 function carregou() {
-  document.body.style.display = 'inherit';
   document.getElementById('carregando').style.display = "none";
+  document.getElementById('totalidade').style.display = "inherit"
 }
 var lastScrollTop = window.pageYOffset;
 window.addEventListener("scroll", function(){
