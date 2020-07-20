@@ -66,7 +66,7 @@ function Competicoes2() {
 };
 function Contato2() {
 	document.body.style.position = 'inherit';
-  document.getElementById( 'Contato' ).scrollIntoView(); 
+  document.getElementById('Contato').scrollIntoView(); 
   document.getElementById("sidebar").style.width = "0"; 
   document.getElementById("menu").style.display = "inline";
   document.getElementById("pagina").style.marginLeft = "0";

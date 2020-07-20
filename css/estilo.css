@@ -17,6 +17,7 @@ body {
 	font-size: 12px;
 	background-image: url(../img/fundo.jpg);
 	height: 100vh;
+	width: auto;
 	background-attachment: fixed;
 }
 
@@ -632,13 +633,10 @@ img {
 
 @media (min-width: 800px) {
 	.conteudo img {
-	height: 30vw;
-	width: 50vw;
-	position: center;
-	margin-left: 20px;
+		margin-left: 20px;
 	}
 	.conteudo {
-	display: flex;
+		display: flex;
 	}
 	.conteudo h3 {
 		margin-top: 20vh;
