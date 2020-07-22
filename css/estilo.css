@@ -19,6 +19,7 @@ body {
 	height: 100vh;
 	width: auto;
 	background-attachment: fixed;
+	overflow-x: hidden;
 }
 
 header {
@@ -226,7 +227,7 @@ img {
 	opacity: 1;
 }
 
-#pagina {
+#content {
 	transition: all 0.5s;
 }
 

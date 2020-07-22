@@ -2,12 +2,12 @@ var ativo = 1;
 function openNav() {
 	document.getElementById("sidebar").style.width = "250px";
 	document.getElementById("menu").style.display = "none";
-	document.getElementById("pagina").style.marginLeft = "250px";
+	document.getElementById("content").style.marginLeft = "250px";
   document.getElementById("content").style.opacity = "0.5";
 }
 function closeNav() {
 	document.getElementById("sidebar").style.width = "0px";
-	document.getElementById("pagina").style.marginLeft = "0px";
+	document.getElementById("content").style.marginLeft = "0px";
   document.getElementById("content").style.opacity = "1";
   document.getElementById("menu").style.display = "inline";
 };   
