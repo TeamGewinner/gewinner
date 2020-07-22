@@ -6,8 +6,8 @@ function openNav() {
   document.getElementById("content").style.opacity = "0.5";
 }
 function closeNav() {
-	document.getElementById("sidebar").style.width = "0";
-	document.getElementById("pagina").style.marginLeft = "0";
+	document.getElementById("sidebar").style.width = "0px";
+	document.getElementById("pagina").style.marginLeft = "0px";
   document.getElementById("content").style.opacity = "1";
   document.getElementById("menu").style.display = "inline";
 };   
@@ -38,33 +38,33 @@ function Contato() {
 function Sobre2() {
 	document.body.style.position = 'inherit';
   document.getElementById( 'quem-somos' ).scrollIntoView();
-  document.getElementById("sidebar").style.width = "0";
+  document.getElementById("sidebar").style.width = "0px";
   document.getElementById("menu").style.display = "inline"; 
-  document.getElementById("pagina").style.marginLeft = "0";
+  document.getElementById("pagina").style.marginLeft = "0px";
   document.getElementById("content").style.opacity = "1";   
 };
 function Robos2() {
 	document.body.style.position = 'inherit';
   document.getElementById( 'Robos' ).scrollIntoView(); 
-  document.getElementById("sidebar").style.width = "0";
+  document.getElementById("sidebar").style.width = "0px";
   document.getElementById("menu").style.display = "inline";
-  document.getElementById("pagina").style.marginLeft = "0";
+  document.getElementById("pagina").style.marginLeft = "0px";
   document.getElementById("content").style.opacity = "1";
 };
 function Competicoes2() {
 	document.body.style.position = 'inherit';
   document.getElementById( 'Competicoes' ).scrollIntoView();
-  document.getElementById("sidebar").style.width = "0"; 
+  document.getElementById("sidebar").style.width = "0px"; 
   document.getElementById("menu").style.display = "inline";
-  document.getElementById("pagina").style.marginLeft = "0"; 
+  document.getElementById("pagina").style.marginLeft = "0px"; 
   document.getElementById("content").style.opacity = "1";
 };
 function Contato2() {
 	document.body.style.position = 'inherit';
-  document.getElementById('Contato').scrollIntoView(true); 
-  document.getElementById("sidebar").style.width = "0"; 
+  document.getElementById('Contato').scrollIntoView(); 
+  document.getElementById("sidebar").style.width = "0px"; 
   document.getElementById("menu").style.display = "inline";
-  document.getElementById("pagina").style.marginLeft = "0";
+  document.getElementById("pagina").style.marginLeft = "0px";
   document.getElementById("content").style.opacity = "1";  
 };
 function botao1() {
@@ -80,7 +80,7 @@ window.addEventListener("scroll", function(){
   if(ativo == 1) {
    var st = window.pageYOffset || document.documentElement.scrollTop;
    if (window.scrollY==0) { 
-    document.getElementById("menu").style.top = "0";
+    document.getElementById("menu").style.top = "0px";
     document.getElementById("menu").style.backgroundColor = "#1e1e1e";
 }else {
   if (st > lastScrollTop){
