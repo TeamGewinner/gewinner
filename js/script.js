@@ -88,9 +88,11 @@ window.addEventListener("scroll", function(){
     document.getElementById("menu").style.backgroundColor = "#1e1e1e";
 }else {
   if (st > lastScrollTop){
+    closeNav();
     document.getElementById("menu").style.backgroundColor = "#1e1e1e";
     document.getElementById("menu").style.top = "-60px";
-  } else {
+    } else {
+    closeNav();
     document.getElementById("menu").style.backgroundColor = "black";
     document.getElementById("menu").style.top = "0px";
    }
