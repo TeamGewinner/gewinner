@@ -81,6 +81,7 @@ function carregou() {
 }
 var lastScrollTop = window.pageYOffset;
 window.addEventListener("scroll", function(){
+  closeNav();
   if(ativo == 1) {
    var st = window.pageYOffset || document.documentElement.scrollTop;
    if (window.scrollY==0) { 
@@ -88,11 +89,9 @@ window.addEventListener("scroll", function(){
     document.getElementById("menu").style.backgroundColor = "#1e1e1e";
 }else {
   if (st > lastScrollTop){
-    closeNav();
     document.getElementById("menu").style.backgroundColor = "#1e1e1e";
     document.getElementById("menu").style.top = "-60px";
     } else {
-    closeNav();
     document.getElementById("menu").style.backgroundColor = "black";
     document.getElementById("menu").style.top = "0px";
    }
