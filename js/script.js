@@ -36,7 +36,7 @@ function Competicoes() {
 };
 function Contato() {
   ativo = 0;
-  document.getElementById( 'Contato' ).scrollIntoView(); 
+  document.getElementById('Contato').scrollIntoView();
   document.getElementById("menu").style.backgroundColor = "#1e1e1e";
   document.getElementById("menu").style.top = "-60px";   
 };
@@ -66,14 +66,14 @@ function Competicoes2() {
 };
 function Contato2() {
 	document.body.style.position = 'inherit';
-  document.getElementById('Contato').scrollIntoView(); 
+  document.getElementById('Contato').scrollIntoView(true); 
   document.getElementById("sidebar").style.width = "0"; 
   document.getElementById("menu").style.display = "inline";
   document.getElementById("pagina").style.marginLeft = "0";
   document.getElementById("content").style.opacity = "1";  
 };
 function botao1() {
-	document.getElementById( 'quem-somos' ).scrollIntoView(); 
+	document.getElementById( 'Sobre' ).scrollIntoView(); 
 }
 function carregou() {
   document.getElementById('carregando').style.display = "none";
@@ -90,11 +90,9 @@ window.addEventListener("scroll", function(){
   if (st > lastScrollTop){
     document.getElementById("menu").style.backgroundColor = "#1e1e1e";
     document.getElementById("menu").style.top = "-60px";
-    closeNav();
   } else {
     document.getElementById("menu").style.backgroundColor = "black";
-        document.getElementById("menu").style.top = "0px";
-        closeNav();
+    document.getElementById("menu").style.top = "0px";
    }
  }
  lastScrollTop = st <= 0 ? 0 : st;
@@ -105,7 +103,6 @@ var isScrolling;
 window.addEventListener('scroll', function ( event ) {
   window.clearTimeout( isScrolling );
   isScrolling = setTimeout(function() {
-  console.log( 'Scrolling has stopped.' );
   ativo = 1;
   }, 66);
 
