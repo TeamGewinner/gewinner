@@ -4,15 +4,11 @@ function openNav() {
 	document.getElementById("menu").style.display = "none";
 	document.getElementById("pagina").style.marginLeft = "250px";
   document.getElementById("content").style.opacity = "0.5";
-  document.body.style.position.top = "fixed";
 }
 function closeNav() {
 	document.getElementById("sidebar").style.width = "0";
 	document.getElementById("pagina").style.marginLeft = "0";
   document.getElementById("content").style.opacity = "1";
-	const teste = document.body.style.top;
-  document.body.style.position = teste;
-	document.body.style.top = teste;
   document.getElementById("menu").style.display = "inline";
 };   
 function Sobre() {
