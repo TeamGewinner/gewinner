@@ -223,6 +223,7 @@ img {
 	position: absolute;
 	top: 55px;
 	width: 100%;
+	opacity: 1;
 }
 
 #pagina {
